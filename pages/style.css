@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: solid 2px red ;
+}
+
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+h3{
+    background-color: black;
+}
+
+#menu li > a {
+    font-size: 30px;
+    font-weight: bolder;
+    color: red
+}
+
+#menu button {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+#local{
+    background-color: #f3f3f3;
+    display: flex !important;
+
+
+}
+
+
+
+
+
+
+/*==================MEDIA QUERIES PANTALLA ANCHA============*/
+@media (max-width: )
+
+
+
+/*==================MEDIA QUERIES PANTALLA MEDIUM============*/
+
+
+
+
+
+/*==================MEDIA QUERIES PANTALLA SMALL============*/
+@media (max-width:768px){
+    #intro #equipo{
+        width: 90% !important;}
+} 
+
+
+
+
+
+/*==================MEDIA QUERIES PANTALLA EXTRA SMALL============*/
+@media (max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap !important;
+
+    }
+}
